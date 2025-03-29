@@ -27,7 +27,7 @@
 	"dependencies": {
 		"@types/source-map": "0.5.7",
 		"color": "5.0.0",
-		"devtools-protocol": "0.0.1433962",
+		"devtools-protocol": "0.0.1439209",
 		"glob": "11.0.1",
 		"noice-json-rpc": "1.2.0",
 		"source-map": "0.7.4",
@@ -38,7 +38,7 @@
 		"@types/glob": "8.1.0",
 		"@types/minimatch": "5.1.2",
 		"@types/mockery": "1.4.33",
-		"@types/node": "22.13.10",
+		"@types/node": "22.13.14",
 		"@types/ws": "8.18.0",
 		"del": "8.0.0",
 		"event-stream": "4.0.1",
