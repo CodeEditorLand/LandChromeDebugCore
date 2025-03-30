@@ -1,7 +1,29 @@
 {
 	"name": "@codeeditorland/chrome-debug-core",
 	"displayName": "vscode-chrome-debug-core",
+	"version": "0.0.1",
+	"private": false,
 	"description": "A library for building VS Code debug adapters for targets that support the Chrome Remote Debug Protocol",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandChromeDebugCore#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandChromeDebugCore/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandChromeDebugCore.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/src/index",
 	"typings": "./lib/src/index.d.ts",
 	"scripts": {
@@ -10,6 +32,7 @@
 		"minor": "npm version minor -m '%s'",
 		"patch": "npm version patch -m '%s'",
 		"prepare": "gulp build",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"testCoverage": "nyc mocha --require source-map-support/register  --exit --recursive -u tdd ./out/test/**/*.test.js"
 	},
 	"nyc": {
@@ -34,6 +57,7 @@
 		"ws": "8.18.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/color": "4.2.0",
 		"@types/glob": "8.1.0",
 		"@types/minimatch": "5.1.2",
@@ -48,5 +72,8 @@
 		"nyc": "17.1.0",
 		"source-map-support": "0.5.21",
 		"typemoq": "2.1.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
