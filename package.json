@@ -57,7 +57,7 @@
 		"ws": "8.18.1"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@types/color": "4.2.0",
 		"@types/glob": "8.1.0",
 		"@types/minimatch": "5.1.2",
